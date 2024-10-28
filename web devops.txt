@@ -1,0 +1,3618 @@
+Day-01
+------
+
+
+Index.html
+----------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Page</title>
+</head>
+<body>
+
+    <iframe name="title" src="Title.html" height="150px" width="1250px">
+    </iframe> <br/>
+
+    <iframe name="navbar" src="Navigation.html" height="350px" width="300px">
+    </iframe>
+
+    <iframe name="content" src="Home.html" height="350px" width="875px">
+    </iframe>
+</body>
+</html>
+
+
+
+
+
+Title.html
+----------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TitlePage</title>
+</head>
+<body bgcolor="lightyellow" text="blue">
+    <center>
+        <h1>BVRIT</h1>
+        <h2>Bachupally Hyderabad</h2>
+    </center>
+</body>
+</html>
+
+
+
+Home.html
+---------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+</head>
+<body bgcolor="lightyellow" text="green">
+    <center>
+        <h1>Welcome to HomePage</h1>
+    </center>
+</body>
+</html>
+
+
+
+AboutUs.html
+------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AboutUs</title>
+</head>
+<body bgcolor="lightgreen" text="blue">
+    
+    <center>
+        <h1>This is AboutUS Page</h1>
+    </center>
+
+</body>
+</html>
+
+
+
+Navigation.html
+---------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+</head>
+<body bgcolor="lightgreen" text="blue">
+
+    <h2>Menu</h2>
+
+    <a href="Login.html"   target="content">Login</a> <br/><br/>
+    <a href="Home.html"    target="content">Home Page</a> <br/><br/>
+    <a href="AboutUs.html" target="content">About Us</a> <br/><br/>
+    <a href="Image.html"   target="content">Image</a> <br/><br/>
+ 
+</body>
+</html>
+
+
+
+Login.html
+----------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoginPage</title>
+</head>
+<body>
+    
+    <h1>Login Form </h1>
+
+    <form>
+        Enter EmailId: 
+        <input type="text" name="emailId" /> <br/>
+        
+        Enter Password:
+        <input type="password" name="password" /> <br/>
+
+        <button> Login </button>
+    </form>
+
+</body>
+</html>
+
+
+Image.html
+----------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image</title>
+</head>
+<body>
+    <h2>Local Image</h2>
+    <img src="Sunrise1.jpg" height="25%" width="30%" /> 
+    <br/>
+
+
+    <h2>Image From Internet</h2>
+    <img 
+        src="https://images.pexels.com/photos/1266810/pexels-photo-1266810.jpeg" 
+        height="25%" width="30%" /> 
+    <br/>
+</body>
+</html>
+
+
+Day-02
+-------
+
+Register.html
+---------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+      
+        Enter Name : <input type="text" name="name"><br/>
+        Enter Date of Joining : <input type="date" name="doj"><br/>
+        Course Name : <br/>
+        <input type="radio" name="course" value="Web">Web<br/>
+        <input type="radio" name="course" value="Java">Web<br/>
+        <input type="radio" name="course" value="Python">Web<br/>
+        <br/><br/>
+        Hobbies<br/>
+        <input type="checkbox" name="singing" value="singing">Singing<br/>
+<input type="checkbox" name="dancing" value="dancing">Dancing<br/>
+<input type="checkbox" name="eating" value="eating">Eating<br/>
+<input type="checkbox" name="chatting" value="chatting">Chatting<br/>
+        
+
+    </form>
+</body>
+</html>
+
+
+
+
+
+
+Student.html
+---------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<h3>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <center> <h3>Students Information</h3></center>
+  <table border="2" align="center">
+    <tr><th>ID</th><th>NAME</th><th>COURSE</th><th>SCORE</th></tr>
+    <tr><td>1</td><td>PASHA MD</td><td>WEB</td><td>100</td></tr>
+    <tr><td>2</td><td>HARSHA S</td><td>PYTHON</td><td>99</td></tr>
+    <tr><td>3</td><td>MAHESH</td><td>REACT</td><td>98</td></tr>
+  </table>
+</body>
+</html>
+
+
+BVRITH.html
+--------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+h1{
+text-align: center;
+color:red;
+font-size: 40px;
+font-family: 'Times New Roman';
+}
+</style>
+</head>
+<body>
+    <marquee direction="right" scrollamount="40">
+        <h3>Starting New Batches</h3>
+    </marquee>
+    
+    <h1>BVRIT H College</h1>
+    <h1 style="color: brown;">Bachupally</h1>
+
+    <h2 style="color:green;font-size: 40px;font-family: 'Times New Roman';">Courses Offerec</h2>
+
+    <ol>
+        <li>B. Tech CSE</li>
+        <li>B. Tech IT</li>
+        <li>B. Tech ECE</li>
+        <li>B. Tech EEE</li>
+        <li>B. Tech ML</li>
+    </ol>
+A<sup>2</sup><br>
+H<sub>2</sub>O
+<p style="color:blue;font-size: 20px;font-family: 'Times New Roman';">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    Odit nam placeat doloribus, labore non iusto, ducimus et 
+    nesciunt distinctio illo perspiciatis error in accusamus dolor 
+    reiciendis molestiae! Autem, odit id.
+</p>
+</font>
+</body>
+</html>
+Day-03
+-------
+
+
+Div Layout
+-----------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height : 500px;
+            width: 100%;
+            background-color: pink;
+        }
+        #divHeader{
+            height:100px;
+            width:100%;
+            background-color: blue;
+        }
+        .divLeft{
+            height : 200px;
+            width:40%;
+            background-color: rgb(21, 193, 104);
+            float : left;
+        }
+        .divRight{
+            height : 200px;
+            width:60%;
+            background-color: rgb(255, 0, 0);
+            float: right;
+        }
+        #divFooter{
+            height:150px;
+            width:100%;
+            background-color: black;
+            clear : both;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="divHeader">Header Div</div>
+        <div class="divLeft">Left Div</div>
+        <div class="divRight">Right Div</div>
+        <div id="divFooter">Footer Div</div>
+    </div>
+</body>
+</html>
+
+Day-04
+======
+
+
+Bootstrap
+=========
+Version
+CDN Link
+Button
+Table
+Glyphicon
+Grid System
+
+
+
+
+Library Files / Packages / Header Files
+
+1. Write a Program -> Library / Package / Header File
+2. Library -> Importing into our Program
+
+
+CSS ==> Bootstrap
+
+
+CDN Link - Content Delivery Network
+
+
+
+Official Website
+https://getbootstrap.com/
+
+
+Bootswatch
+https://bootswatch.com/
+https://bootswatch.com/cosmo/
+
+
+
+Bootstrap 5.0.2 CDN Link
+========================
+
+WebSite:
+========
+https://getbootstrap.com/docs/5.0/getting-started/introduction/
+
+CDN Link:
+=========
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+rel="stylesheet" 
+integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+crossorigin="anonymous">
+
+
+
+
+
+Ex-1
+====
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoginPage</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+    crossorigin="anonymous">
+
+</head>
+<body>
+    
+    <h1>Login Form </h1>
+
+    <form>
+        Enter EmailId: 
+        <input type="text" name="emailId" /> <br/>
+        
+        Enter Password:
+        <input type="password" name="password" /> <br/>
+
+        <button class="btn btn-outline-primary"> Login </button>
+    </form>
+
+</body>
+</html>
+
+
+
+
+
+
+Table
+=====
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Table</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+    crossorigin="anonymous">
+
+</head>
+<body>
+    <h3><center>Students Information</center></h3>
+
+    <div class="container">
+
+        <table class="table table-sm  table-striped table-bordered">
+
+            <tr class="bg-info text-white" >
+                <th>ID</th>
+                <th>NAME</th>
+                <th>COURSE</th>
+                <th>SCORE</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td>Christie</td>
+                <td>Web</td>
+                <td>100</td>
+            </tr>
+    
+            <tr>
+                <td>2</td>
+                <td>Paul</td>
+                <td>Web</td>
+                <td>95</td>
+            </tr>
+            
+            <tr>
+                <td>3</td>
+                <td>Isabella</td>
+                <td>Web</td>
+                <td>90</td>
+            </tr>
+        </table>
+    </div>
+
+    
+</body>
+</html>
+
+
+
+
+
+
+
+Gliphicons
+==========
+
+Need Bootstrap 3.4.1 CDN Link
+=============================
+
+WebSite
+=======
+https://getbootstrap.com/docs/3.4/getting-started/
+
+
+CDN Link
+========
+<link rel="stylesheet" 
+href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" 
+integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" 
+crossorigin="anonymous">
+
+
+
+
+
+
+Login.html
+==========
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoginPage</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <div style="width: 250px; margin-left: 50px;">
+
+        <h1>Login Form </h1>
+
+        <form>
+            <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                <input class="form-control" type="text" name="emailId" />
+            </div> <br />
+
+            <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                <input class="form-control" type="password" name="password" /> 
+            </div> <br />
+
+            <button class="btn btn-primary"> Login </button>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+Bootstrap Grid System
+=====================
+
+CDN Link
+========
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+rel="stylesheet" crossorigin="anonymous">
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Grid</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+rel="stylesheet" crossorigin="anonymous">
+</head>
+<body>
+    <h1 align="center">Bootstrap Grid System</h1> <br/>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-xs-6"> Col-01 </div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-xs-6"> Col-02 </div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-xs-6"> Col-03 </div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-xs-6"> Col-04 </div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-xs-6"> Col-05 </div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-xs-6"> Col-06 </div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-xs-6"> Col-07 </div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-xs-6"> Col-08 </div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-xs-6"> Col-09 </div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-xs-6"> Col-10 </div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-xs-6"> Col-11 </div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-xs-6"> Col-12 </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>
+
+
+
+
+
+
+Bootstrap Card System
+=====================
+ 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+    rel="stylesheet" crossorigin="anonymous">
+
+</head>
+<body>
+    <h1 align="center">Bootstrap Card System</h1> <br/>
+
+    <div class="container">
+
+        <div class="card" style="width:400px">
+        
+            <img class="card-img-top" src="Sunrise1.jpg" alt="Card image" style="width:100%">
+            
+            <div class="card-body">
+              <h4 class="card-title">Sunrise Photo Frame</h4>
+              <p class="card-text">No cost EMI Applicable on All Cards</p>
+              <p class="card-text"><b>Price: <s>र25000.00/-</s> र15000.00/-</b></p>
+              <p align="right">
+                <a href="#" class="btn btn-primary">Add To Cart</a>
+              </p>
+            </div>
+    
+        </div>
+
+    </div>
+    
+
+
+
+</body>
+</html>
+
+
+Day-05
+======
+
+https://www.protectedtext.com/bvrith-mernstack
+Password: 123
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid&Card</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+rel="stylesheet" crossorigin="anonymous">
+</head>
+
+
+<body>
+
+    <h1 align="center">BootStrap Grid & Card Systems</h1> <br/>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-3">
+                <div class="card" style="width:300px; height:400px;">
+                    <img class="card-img-top" src="Images/img1.jpg" alt="Image1.jpg" style="width:86%; height: 70%; margin-top: 19px; margin-left: 20px;">
+                    <div class="card-body">
+                      <h4 class="card-title">Sunrise</h4>
+                      <p class="card-text">No cost EMI Applicable on All Cards</p>
+                      <p class="card-text"><b>Price: <s>र5000.00/-</s> र15000.00/-</b></p>
+                      <p align="right">
+                        <a href="#" class="btn btn-primary">Add To Cart</a>
+                      </p>
+                    </div>            
+                </div> &nbsp;
+            </div>
+
+            <div class="col-md-3">
+                <div class="card" style="width:300px; height:400px;">
+                    <img class="card-img-top" src="Images/img2.jpg" alt="Image1.jpg" style="width:86%; height: 70%; margin-top: 19px; margin-left: 20px;">
+                    <div class="card-body">
+                      <h4 class="card-title">Sunrise</h4>
+                      <p class="card-text">No cost EMI Applicable on All Cards</p>
+                      <p class="card-text"><b>Price: <s>र5000.00/-</s> र15000.00/-</b></p>
+                      <p align="right">
+                        <a href="#" class="btn btn-primary">Add To Cart</a>
+                      </p>
+                    </div>            
+                </div> &nbsp;
+            </div>
+
+            <div class="col-md-3">
+                <div class="card" style="width:300px; height:400px;">
+                    <img class="card-img-top" src="Images/img3.jpg" alt="Image1.jpg" style="width:86%; height: 70%; margin-top: 19px; margin-left: 20px;">
+                    <div class="card-body">
+                      <h4 class="card-title">Sunrise</h4>
+                      <p class="card-text">No cost EMI Applicable on All Cards</p>
+                      <p class="card-text"><b>Price: <s>र5000.00/-</s> र15000.00/-</b></p>
+                      <p align="right">
+                        <a href="#" class="btn btn-primary">Add To Cart</a>
+                      </p>
+                    </div>            
+                </div> &nbsp;
+            </div>         
+            
+            <div class="col-md-3">
+                <div class="card" style="width:300px; height:400px;">
+                    <img class="card-img-top" src="Images/img4.jpg" alt="Image1.jpg" style="width:86%; height: 70%; margin-top: 19px; margin-left: 20px;">
+                    <div class="card-body">
+                      <h4 class="card-title">Sunrise</h4>
+                      <p class="card-text">No cost EMI Applicable on All Cards</p>
+                      <p class="card-text"><b>Price: <s>र5000.00/-</s> र15000.00/-</b></p>
+                      <p align="right">
+                        <a href="#" class="btn btn-primary">Add To Cart</a>
+                      </p>
+                    </div>            
+                </div> &nbsp;
+            </div>      
+
+            <div class="col-md-3">
+                <div class="card" style="width:300px; height:400px;">
+                    <img class="card-img-top" src="Images/img5.jpg" alt="Image1.jpg" style="width:86%; height: 70%; margin-top: 19px; margin-left: 20px;">
+                    <div class="card-body">
+                      <h4 class="card-title">Sunrise</h4>
+                      <p class="card-text">No cost EMI Applicable on All Cards</p>
+                      <p class="card-text"><b>Price: <s>र5000.00/-</s> र15000.00/-</b></p>
+                      <p align="right">
+                        <a href="#" class="btn btn-primary">Add To Cart</a>
+                      </p>
+                    </div>            
+                </div> &nbsp;
+            </div>         
+            
+            <div class="col-md-3">
+                <div class="card" style="width:300px; height:400px;">
+                    <img class="card-img-top" src="Images/img6.jpg" alt="Image1.jpg" style="width:86%; height: 70%; margin-top: 19px; margin-left: 20px;">
+                    <div class="card-body">
+                      <h4 class="card-title">Sunrise</h4>
+                      <p class="card-text">No cost EMI Applicable on All Cards</p>
+                      <p class="card-text"><b>Price: <s>र5000.00/-</s> र15000.00/-</b></p>
+                      <p align="right">
+                        <a href="#" class="btn btn-primary">Add To Cart</a>
+                      </p>
+                    </div>            
+                </div> &nbsp;
+            </div>         
+            
+
+        </div>
+    </div>
+</body>
+</html>
+
+
+====================================================
+
+
+Bootstrap Carousel
+==================
+
+
+https://www.lambdatest.com/blog/bootstrap-carousel-examples/
+
+
+
+
+
+====================================================
+
+JavaScript Day-01
+=================
+
+https://www.protectedtext.com/bvrith-mernstack
+Password: 123
+
+JavaScript
+==========
+Binary Language (0, 1)
+Assembly Language (English + Assembly Keywords)
+High Level Langulage C, Java, Python (English)
+
+
+Network (CUI)
+
+
+Static Web Site
+===============
+HTML + CSS
+
+Content is Same For All Users.
+All Home Pages
+
+
+Dynamic Web Site / Application
+==============================
+HTML + CSS + JavaScript
+
+Content is Different from User to User.
+Gmail (inbox), Youtube Suggessions, Amazon and Flipkart
+
+
+
+C - Procedural
+Java/CPP/Python - OOPS
+JavaScript - OOPS
+HTML - DOM (Document Object Model)
+
+
+
+
+
+Example-1
+=========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        let x = "JavaScript";
+        alert('Welcome to ' + x);
+    </script>
+
+</head>
+<body>
+    <h1>Welcome to JavaScript</h1>
+</body>
+</html>
+
+
+
+
+
+
+Example-2
+=========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page-2</title>
+</head>
+<body>
+    <h1 id="msg"></h1>
+
+    <script>
+        document.getElementById('msg').innerHTML = "Welcome to JavaScript";
+    </script>
+</body>
+</html>
+
+
+
+
+
+Example-3
+=========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page-2</title>
+</head>
+<body>
+    <h1 id="msg"></h1> <br/>
+    <input type="text" id="name" /> <br/>
+    
+    <script>
+        document.getElementById("msg").innerHTML = "Welcome to JavaScript";
+        document.getElementById("name").value = "Enter Your Name";
+    </script>
+</body>
+</html>
+
+
+
+
+
+Example-4
+=========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page-3</title>
+    
+    <script>
+        function sayHi() {
+            document.getElementById('result').innerHTML = "Hello All.";
+        }
+    </script>
+</head>
+<body>
+    <h1 id="result"></h1>
+    <button onClick="sayHi()">Click Me!</button>
+</body>
+</html>
+
+
+
+Example-5
+=========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page-4</title>    
+    <script>
+        function findSum() {
+            let num1 = parseInt(document.getElementById('num1').value);
+            let num2 = document.getElementById('num2').value;
+            let sum = num1 + Number(num2);
+            document.getElementById('result').innerHTML = "Result: " + sum;
+        }
+    </script>
+</head>
+<body>
+
+    Enter Num1 <input type="text" id="num1" /> <br/>
+    Enter Num2 <input type="text" id="num2" /> <br/>
+    <button onClick="findSum()">Find Sum</button>
+
+    <h1 id="result">Find Result</h1>
+</body>
+</html>
+
+
+
+Example-6 (Sum of Individual Digits of Two Digit Number (25 = 2+5 = 7)
+=========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page-4</title>    
+    <script>
+        function twoDigitSum() {
+            let num = parseInt(document.getElementById('num').value);
+
+            let rem = num % 10;
+            let quo = parseInt(num / 10);
+            
+            let sum = quo + rem;
+            document.getElementById('result').innerHTML = "Sum = " + sum;
+        }
+    </script>
+</head>
+<body>
+    Enter Two Digit Number <input type="text" id="num" /> <br/>
+    <button onClick="twoDigitSum()">TwoDigitSum</button>
+    <h1 id="result">Find Result</h1>
+</body>
+</html>
+
+
+
+
+Example-7
+=========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page-6</title>    
+    <script>
+        function swap() {
+            let num1 = parseInt(document.getElementById('num1').value);
+            let num2 = parseInt(document.getElementById('num2').value);
+            
+            document.getElementById('Num1').innerHTML = "num1 = " + num1;
+            document.getElementById('Num2').innerHTML = "num2 = " + num2;
+
+            num1 = num1 + num2;     //num1 = 10 + 20 = 30
+            num2 = num1 - num2;     //num2 = 30 - 20 = 10
+            num1 = num1 - num2;     //num1 = 30 - 10 = 30
+
+            /*
+                let temp = num1;
+                num1 = num2;
+                num2 = temp;
+            */
+
+            document.getElementById('Num3').innerHTML = "num1 = " + num1;
+            document.getElementById('Num4').innerHTML = "num2 = " + num2;
+        }
+    </script>
+</head>
+<body>
+    Enter Num1 <input type="text" id="num1" /> <br/>
+    Enter Num2 <input type="text" id="num2" /> <br/>
+    <button onClick="swap()">Interchange Numbers</button>
+    
+    <h1>Before swapping / Interchanging</h1>
+    <h1 id="Num1">num1 = </h1>
+    <h1 id="Num2">num2 = </h1> <br/>
+
+    <h1>After swapping / Interchanging</h1>
+    <h1 id="Num3">num1 = </h1>
+    <h1 id="Num4">num2 = </h1>
+</body>
+</html>
+
+
+
+Assignment
+==========
+num = 123;
+O/p = 200
+
+
+num = 199;
+o/p = 200
+
+num = 879;
+o/p = 900
+
+
+
+MERN Stack Day-06 (JavaScript Day-01)
+=====================================
+
+https://www.protectedtext.com/bvrith-mernstack
+Password: 123
+
+JavaScript
+==========
+Binary Language (0, 1)
+Assembly Language (English + Assembly Keywords)
+High Level Langulage C, Java, Python (English)
+
+
+Network (CUI)
+
+
+Static Web Site
+===============
+HTML + CSS
+
+Content is Same For All Users.
+All Home Pages
+
+
+Dynamic Web Site / Application
+==============================
+HTML + CSS + JavaScript
+
+Content is Different from User to User.
+Gmail (inbox), Youtube Suggessions, Amazon and Flipkart
+
+
+
+C - Procedural
+Java/CPP/Python - OOPS
+JavaScript - OOPS
+HTML - DOM (Document Object Model)
+
+
+
+
+
+Example-1
+=========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        let x = "JavaScript";
+        alert('Welcome to ' + x);
+    </script>
+
+</head>
+<body>
+    <h1>Welcome to JavaScript</h1>
+</body>
+</html>
+
+
+
+
+
+
+Example-2
+=========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page-2</title>
+</head>
+<body>
+    <h1 id="msg"></h1>
+
+    <script>
+        document.getElementById('msg').innerHTML = "Welcome to JavaScript";
+    </script>
+</body>
+</html>
+
+
+
+
+
+Example-3
+=========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page-2</title>
+</head>
+<body>
+    <h1 id="msg"></h1> <br/>
+    <input type="text" id="name" /> <br/>
+    
+    <script>
+        document.getElementById("msg").innerHTML = "Welcome to JavaScript";
+        document.getElementById("name").value = "Enter Your Name";
+    </script>
+</body>
+</html>
+
+
+
+
+
+Example-4
+=========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page-3</title>
+    
+    <script>
+        function sayHi() {
+            document.getElementById('result').innerHTML = "Hello All.";
+        }
+    </script>
+</head>
+<body>
+    <h1 id="result"></h1>
+    <button onClick="sayHi()">Click Me!</button>
+</body>
+</html>
+
+
+
+Example-5
+=========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page-4</title>    
+    <script>
+        function findSum() {
+            let num1 = parseInt(document.getElementById('num1').value);
+            let num2 = document.getElementById('num2').value;
+            let sum = num1 + Number(num2);
+            document.getElementById('result').innerHTML = "Result: " + sum;
+        }
+    </script>
+</head>
+<body>
+
+    Enter Num1 <input type="text" id="num1" /> <br/>
+    Enter Num2 <input type="text" id="num2" /> <br/>
+    <button onClick="findSum()">Find Sum</button>
+
+    <h1 id="result">Find Result</h1>
+</body>
+</html>
+
+
+
+Example-6 (Sum of Individual Digits of Two Digit Number (25 = 2+5 = 7)
+=========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page-4</title>    
+    <script>
+        function twoDigitSum() {
+            let num = parseInt(document.getElementById('num').value);
+
+            let rem = num % 10;
+            let quo = parseInt(num / 10);
+            
+            let sum = quo + rem;
+            document.getElementById('result').innerHTML = "Sum = " + sum;
+        }
+    </script>
+</head>
+<body>
+    Enter Two Digit Number <input type="text" id="num" /> <br/>
+    <button onClick="twoDigitSum()">TwoDigitSum</button>
+    <h1 id="result">Find Result</h1>
+</body>
+</html>
+
+
+
+
+Example-7
+=========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page-6</title>    
+    <script>
+        function swap() {
+            let num1 = parseInt(document.getElementById('num1').value);
+            let num2 = parseInt(document.getElementById('num2').value);
+            
+            document.getElementById('Num1').innerHTML = "num1 = " + num1;
+            document.getElementById('Num2').innerHTML = "num2 = " + num2;
+
+            num1 = num1 + num2;     //num1 = 10 + 20 = 30
+            num2 = num1 - num2;     //num2 = 30 - 20 = 10
+            num1 = num1 - num2;     //num1 = 30 - 10 = 30
+
+            /*
+                let temp = num1;
+                num1 = num2;
+                num2 = temp;
+            */
+
+            document.getElementById('Num3').innerHTML = "num1 = " + num1;
+            document.getElementById('Num4').innerHTML = "num2 = " + num2;
+        }
+    </script>
+</head>
+<body>
+    Enter Num1 <input type="text" id="num1" /> <br/>
+    Enter Num2 <input type="text" id="num2" /> <br/>
+    <button onClick="swap()">Interchange Numbers</button>
+    
+    <h1>Before swapping / Interchanging</h1>
+    <h1 id="Num1">num1 = </h1>
+    <h1 id="Num2">num2 = </h1> <br/>
+
+    <h1>After swapping / Interchanging</h1>
+    <h1 id="Num3">num1 = </h1>
+    <h1 id="Num4">num2 = </h1>
+</body>
+</html>
+
+
+
+Assignment
+==========
+num = 123;
+O/p = 100
+
+
+num = 199;
+o/p = 200
+
+num = 879;
+o/p = 900
+
+
+
+MERN Stack Day-06 (JavaScript Day-01)
+=====================================
+
+https://www.protectedtext.com/bvrith-mernstack
+Password: 123
+
+JavaScript
+==========
+Binary Language (0, 1)
+Assembly Language (English + Assembly Keywords)
+High Level Langulage C, Java, Python (English)
+
+
+Network (CUI)
+
+
+Static Web Site
+===============
+HTML + CSS
+
+Content is Same For All Users.
+All Home Pages
+
+
+Dynamic Web Site / Application
+==============================
+HTML + CSS + JavaScript
+
+Content is Different from User to User.
+Gmail (inbox), Youtube Suggessions, Amazon and Flipkart
+
+
+
+C - Procedural
+Java/CPP/Python - OOPS
+JavaScript - OOPS
+HTML - DOM (Document Object Model)
+
+
+
+
+
+Example-1
+=========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        let x = "JavaScript";
+        alert('Welcome to ' + x);
+    </script>
+
+</head>
+<body>
+    <h1>Welcome to JavaScript</h1>
+</body>
+</html>
+
+
+
+
+
+
+Example-2
+=========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page-2</title>
+</head>
+<body>
+    <h1 id="msg"></h1>
+
+    <script>
+        document.getElementById('msg').innerHTML = "Welcome to JavaScript";
+    </script>
+</body>
+</html>
+
+
+
+
+
+Example-3
+=========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page-2</title>
+</head>
+<body>
+    <h1 id="msg"></h1> <br/>
+    <input type="text" id="name" /> <br/>
+    
+    <script>
+        document.getElementById("msg").innerHTML = "Welcome to JavaScript";
+        document.getElementById("name").value = "Enter Your Name";
+    </script>
+</body>
+</html>
+
+
+
+
+
+Example-4
+=========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page-3</title>
+    
+    <script>
+        function sayHi() {
+            document.getElementById('result').innerHTML = "Hello All.";
+        }
+    </script>
+</head>
+<body>
+    <h1 id="result"></h1>
+    <button onClick="sayHi()">Click Me!</button>
+</body>
+</html>
+
+
+
+Example-5
+=========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page-4</title>    
+    <script>
+        function findSum() {
+            let num1 = parseInt(document.getElementById('num1').value);
+            let num2 = document.getElementById('num2').value;
+            let sum = num1 + Number(num2);
+            document.getElementById('result').innerHTML = "Result: " + sum;
+        }
+    </script>
+</head>
+<body>
+
+    Enter Num1 <input type="text" id="num1" /> <br/>
+    Enter Num2 <input type="text" id="num2" /> <br/>
+    <button onClick="findSum()">Find Sum</button>
+
+    <h1 id="result">Find Result</h1>
+</body>
+</html>
+
+
+
+Example-6 (Sum of Individual Digits of Two Digit Number (25 = 2+5 = 7)
+=========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page-4</title>    
+    <script>
+        function twoDigitSum() {
+            let num = parseInt(document.getElementById('num').value);
+
+            let rem = num % 10;
+            let quo = parseInt(num / 10);
+            
+            let sum = quo + rem;
+            document.getElementById('result').innerHTML = "Sum = " + sum;
+        }
+    </script>
+</head>
+<body>
+    Enter Two Digit Number <input type="text" id="num" /> <br/>
+    <button onClick="twoDigitSum()">TwoDigitSum</button>
+    <h1 id="result">Find Result</h1>
+</body>
+</html>
+
+
+
+
+Example-7
+=========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page-6</title>    
+    <script>
+        function swap() {
+            let num1 = parseInt(document.getElementById('num1').value);
+            let num2 = parseInt(document.getElementById('num2').value);
+            
+            document.getElementById('Num1').innerHTML = "num1 = " + num1;
+            document.getElementById('Num2').innerHTML = "num2 = " + num2;
+
+            num1 = num1 + num2;     //num1 = 10 + 20 = 30
+            num2 = num1 - num2;     //num2 = 30 - 20 = 10
+            num1 = num1 - num2;     //num1 = 30 - 10 = 30
+
+            /*
+                let temp = num1;
+                num1 = num2;
+                num2 = temp;
+            */
+
+            document.getElementById('Num3').innerHTML = "num1 = " + num1;
+            document.getElementById('Num4').innerHTML = "num2 = " + num2;
+        }
+    </script>
+</head>
+<body>
+    Enter Num1 <input type="text" id="num1" /> <br/>
+    Enter Num2 <input type="text" id="num2" /> <br/>
+    <button onClick="swap()">Interchange Numbers</button>
+    
+    <h1>Before swapping / Interchanging</h1>
+    <h1 id="Num1">num1 = </h1>
+    <h1 id="Num2">num2 = </h1> <br/>
+
+    <h1>After swapping / Interchanging</h1>
+    <h1 id="Num3">num1 = </h1>
+    <h1 id="Num4">num2 = </h1>
+</body>
+</html>
+
+
+
+Assignment
+==========
+num = 123;
+O/p = 100
+
+
+num = 199;
+o/p = 200
+
+num = 879;
+o/p = 900
+MERN Stack Day-07 (JavaScript Day-02)
+=====================================
+
+https://www.protectedtext.com/bvrith-mernstack
+Password: 123
+
+Date: 18-Sept-2024
+Week: Wednesday - Afternoon
+
+
+Basics
+======
+Variables & Data Types
+Operators
+Conditional Constructs (if else, switch case)
+Loops (while, do while, for)
+Arrays (Single, Two)
+Functions 
+
+sayHello() {
+}
+
+sayHello(name) {
+}
+
+sayHello() {
+ return "Hello";
+}
+
+================
+
+
+sayHello(name) {
+  return "Hello " + name;
+}
+
+
+================
+
+
+
+
+
+
+
+
+Next Multiple of 100
+====================
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NextMultipleOf100</title>    
+    <script>
+        function nextMultipleOf100() {
+            
+            let num = parseInt(document.getElementById('num').value);
+
+            //let temp1 = num % 100;      //123 % 100 = 23
+            //let temp2 = 100 - temp1;    //100 - 23 = 77
+            //let result = num + temp2;
+
+            let result = (parseInt(num  / 100) + 1) * 100;
+
+            document.getElementById('result').innerHTML = 
+                "Next Multiple of 100 = " + result;
+        }
+    </script>
+</head>
+<body>
+    Enter a Number: <input type="text" id="num" /> <br/>
+    <button onClick="nextMultipleOf100()">Get Next Multiple of 100</button> <br/><br/>
+    
+    <h1 id="result"></h1>
+</body>
+</html>
+
+
+
+
+Voting
+======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting</title>    
+    <script>
+        function myFun() {
+            
+            let result = "";
+            let age = parseInt(document.getElementById('num').value);
+
+            if (age >= 18) {    //age > 17
+                result = "You are Eligible for Voting"
+            } else {
+                result = "You are not Eligible for Voting"
+            }
+
+            document.getElementById('result').innerHTML = result;
+        }
+    </script>
+</head>
+<body>
+    Enter Your Age: <input type="text" id="num" /> <br/>
+    <button onClick="myFun()">Get Result</button> <br/><br/>
+    
+    <h1 id="result"></h1>
+</body>
+</html>
+
+
+
+
+Teenager
+========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting</title>    
+    <script>
+        function myFun() {
+            
+            let result = "";
+            let age = parseInt(document.getElementById('num').value);
+
+            if (age >= 13 && age <= 19) {    //age > 17
+                result = "You are a Teenager";
+            } else {
+                result = "You are not a Teenager";
+            }
+
+            document.getElementById('result').innerHTML = result;
+        }
+    </script>
+</head>
+<body>
+    Enter Your Age: <input type="text" id="num" /> <br/>
+    <button onClick="myFun()">Get Result</button> <br/><br/>
+    
+    <h1 id="result"></h1>
+</body>
+</html>
+
+
+
+Teenager
+========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting</title>    
+    <script>
+        function myFun() {
+            
+            let result = "";
+            let age = parseInt(document.getElementById('num').value);
+
+            if (age > 12) {
+                if (age < 20) {
+                    result = "You are a Teenager";
+                } else {
+                    result = "Age > 19, You are an Adult, not a Teenager";
+                }
+            } else {
+                result = "Age < 13, You are a Kid, not a Teenager";
+            }
+
+            document.getElementById('result').innerHTML = result;
+        }
+    </script>
+</head>
+<body>
+    Enter Your Age: <input type="text" id="num" /> <br/>
+    <button onClick="myFun()">Get Result</button> <br/><br/>
+    
+    <h1 id="result"></h1>
+</body>
+</html>
+
+
+
+
+
+Positive / Negative
+===================
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting</title>    
+    <script>
+        function myFun() {            
+            let result = "";
+            let num = parseInt(document.getElementById('num').value);
+
+            if (num > 0) {
+                result = "Positve Number";
+            } else if (num < 0) {
+                result = "Negative Number";
+            } else {
+                result = "Zero (0)";
+            }
+            document.getElementById('result').innerHTML = result;
+        }
+    </script>
+</head>
+<body>
+    Enter a Number: <input type="text" id="num" /> <br/>
+    <button onClick="myFun()">Get Result</button> <br/><br/>
+    
+    <h1 id="result"></h1>
+</body>
+</html>
+
+
+
+
+Greatest of 3 Numbers
+=====================
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting</title>    
+    <script>
+        function myFun() {            
+            let result = "";
+            let num1 = parseInt(document.getElementById('num1').value);
+            let num2 = parseInt(document.getElementById('num2').value);
+            let num3 = parseInt(document.getElementById('num3').value);
+
+            if (num1 > num2 && num1 > num3) {
+                result = num1 + ", num1 is Greater";
+            } else if (num2 > num3) {
+                result = num2 + ", num2 is Greater";
+            } else {
+                result = num3 + ", num3 is Greater";
+            }
+            
+            document.getElementById('result').innerHTML = result;
+        }
+    </script>
+</head>
+<body>
+    Enter a Number1: <input type="text" id="num1" /> <br/>
+    Enter a Number2: <input type="text" id="num2" /> <br/>
+    Enter a Number3: <input type="text" id="num3" /> <br/>
+    <button onClick="myFun()">Get Result</button> <br/><br/>    
+    <h1 id="result"></h1>
+</body>
+</html>
+
+
+
+
+
+
+Greatest of 3 Numbers
+=====================
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting</title>    
+    <script>
+        function myFun() {            
+            
+            let num1 = parseInt(document.getElementById('num1').value);
+            let num2 = parseInt(document.getElementById('num2').value);
+            let num3 = parseInt(document.getElementById('num3').value);
+            
+            let max = num1;
+
+            if (max < num2) {
+                max = num2;
+            }
+
+            if (max < num3) {
+                max = num3;
+            }
+            
+            document.getElementById('result').innerHTML = max + " is Greagter";
+        }
+    </script>
+</head>
+<body>
+    Enter a Number1: <input type="text" id="num1" /> <br/>
+    Enter a Number2: <input type="text" id="num2" /> <br/>
+    Enter a Number3: <input type="text" id="num3" /> <br/>
+    <button onClick="myFun()">Get Result</button> <br/><br/>    
+    <h1 id="result"></h1>
+</body>
+</html>
+
+
+
+  FizzBizz
+  ========
+
+  num is divisible by 3 = Fizz
+  
+  num is divisible by 5 = Bizz
+
+  num is divisible by 3 and 5 = FizzBizz
+
+  Otherwise provide the number itself
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FizzBizz</title>    
+    <script>
+        function myFun() {            
+            let result = "";
+            let num = parseInt(document.getElementById('num').value);
+
+            if (num % 3 == 0) {
+                result = "Fizz"
+            }
+
+            if (num % 5 == 0) {
+                result += "Bizz";
+            }
+
+            if (result.length == 0) {
+                result = num;
+            }
+                        
+            document.getElementById('result').innerHTML = result;
+        }
+    </script>
+</head>
+<body>
+    Enter a Number: <input type="text" id="num" /> <br/>
+    <button onClick="myFun()">Get Result</button> <br/><br/>    
+    <h1 id="result"></h1>
+</body>
+</html>
+
+
+
+Loops
+=====
+
+1. Initialization
+2. Condition Check
+3. Statements Execution
+4. Increment / Decrement
+
+While Loop
+==========
+
+Initialization
+
+while (condition) {
+	Statements;
+	Incr / Decr;
+}
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FizzBizz</title>    
+    <script>
+        function myFun() {            
+            let result = "";
+            let num = parseInt(document.getElementById('num').value);
+
+            let i = 1;
+
+            while (i <= 10) {
+                result = result + "i = " + i + "<br/>";
+                i++;
+            }
+
+            document.getElementById('result').innerHTML = result;
+        }
+    </script>
+</head>
+<body>
+    Enter a Number: <input type="text" id="num" /> <br/>
+    <button onClick="myFun()">Get Result</button> <br/><br/>    
+    <h1 id="result"></h1>
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FizzBizz</title>    
+    <script>
+        function myFun() {            
+            let result = "";
+            let num = parseInt(document.getElementById('num').value);
+
+            let i = 1;
+
+            while (i <= num) {
+                result = result + "i = " + i + "<br/>";
+                i++;
+            }
+
+            document.getElementById('result').innerHTML = result;
+        }
+    </script>
+</head>
+<body>
+    Enter a Number: <input type="text" id="num" /> <br/>
+    <button onClick="myFun()">Get Result</button> <br/><br/>    
+    <h1 id="result"></h1>
+</body>
+</html>
+
+
+
+
+
+
+
+
+Multiplication Table
+====================
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FizzBizz</title>    
+    <script>
+        function myFun() {            
+            let result = "";
+            let num = parseInt(document.getElementById('num').value);
+
+            let i = 1;
+
+            while (i <= 10) {
+                result += num + " * " + i + " = " + (num * i) + "<br/>";
+                i++;
+            }
+
+            document.getElementById('result').innerHTML = result;
+        }
+    </script>
+</head>
+<body>
+    Enter a Number: <input type="text" id="num" /> <br/>
+    <button onClick="myFun()">Get Result</button> <br/><br/>    
+    <h1 id="result"></h1>
+</body>
+</html>
+
+
+
+
+
+For Loop
+========
+
+for (initialization; condition; incr/decr) {
+	statements
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FizzBizz</title>    
+    <script>
+        function myFun() {            
+            let result = "";
+            let num = parseInt(document.getElementById('num').value);
+
+            for (let i = 1; i <= 10; i++) {
+                result += i + " <br/>";
+            }
+
+            document.getElementById('result').innerHTML = result;
+        }
+    </script>
+</head>
+<body>
+    Enter a Number: <input type="text" id="num" /> <br/>
+    <button onClick="myFun()">Get Result</button> <br/><br/>    
+    <h1 id="result"></h1>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FizzBizz</title>    
+    <script>
+        function myFun() {            
+            let result = "";
+            let num = parseInt(document.getElementById('num').value);
+
+            for (let i = 1; i <= num; i++) {
+                result += i + " <br/>";
+            }
+
+            document.getElementById('result').innerHTML = result;
+        }
+    </script>
+</head>
+<body>
+    Enter a Number: <input type="text" id="num" /> <br/>
+    <button onClick="myFun()">Get Result</button> <br/><br/>    
+    <h1 id="result"></h1>
+</body>
+</html>
+
+
+
+
+Prime Number
+============
+
+Logic-1
+=======
+
+num = 7 Divisible by 1, 2, 3, 4, 5, 6, 7 => count = 2, & is Prime Number
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrimeNumber</title>    
+    <script>
+        function myFun() {            
+            let result = "";
+            let count = 0;
+            let num = parseInt(document.getElementById('num').value);
+
+            for (let i = 1; i <= num; i++) {
+                if (num % i == 0) {
+                    count++;
+                }
+            }
+
+            if (count == 2) {
+                result = "Prime Number";
+            } else {
+                result = "Not a Prime Number";
+            }
+
+            document.getElementById('result').innerHTML = result;
+        }
+    </script>
+</head>
+<body>
+    Enter a Number: <input type="text" id="num" /> <br/>
+    <button onClick="myFun()">Get Result</button> <br/><br/>    
+    <h1 id="result"></h1>
+</body>
+</html>
+
+
+
+
+
+
+
+Logic-2
+=======
+
+num = 7 Divisible by 2, 3, 4, 5, 6 => count = 0, & is Prime Number
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrimeNumber</title>    
+    <script>
+        function myFun() {            
+            let result = "";
+            let count = 0;
+            let num = parseInt(document.getElementById('num').value);
+
+            for (let i = 2; i < num; i++) {
+                if (num % i == 0) {
+                    count++;
+                }
+            }
+
+            if (count == 0) {
+                result = "Prime Number";
+            } else {
+                result = "Not a Prime Number";
+            }
+
+            document.getElementById('result').innerHTML = result;
+        }
+    </script>
+</head>
+<body>
+    Enter a Number: <input type="text" id="num" /> <br/>
+    <button onClick="myFun()">Get Result</button> <br/><br/>    
+    <h1 id="result"></h1>
+</body>
+</html>
+
+
+
+
+
+Logic-3 - Using Methods / Functions
+=======
+
+num = 7 Divisible by 2, 3, 4, 5, 6, count = 0
+
+num = 121 Divisible by 2, 3, 4, ..., 10, 11, 12, ... 119, 120, count = 1
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrimeNumber</title>    
+    <script>
+
+        function isPrime(num) {
+            for (let i = 2; i < num; i++) {
+                if (num % i == 0) {
+                    return "Not a Prime Number";
+                }
+            }
+
+            return "Prime Number";
+        }
+
+
+        function myFun() {            
+            let num = parseInt(document.getElementById('num').value);
+
+            let result = isPrime(num);            
+
+            document.getElementById('result').innerHTML = result;
+        }
+    </script>
+</head>
+<body>
+    Enter a Number: <input type="text" id="num" /> <br/>
+    <button onClick="myFun()">Get Result</button> <br/><br/>    
+    <h1 id="result"></h1>
+</body>
+</html>
+
+
+
+Twin Primes
+===========
+3, 5	=> Difference is 2
+5, 7	=> Difference is 2
+11, 13	=> Difference is 2
+17, 19	=> Difference is 2
+
+10 - 20 =>  (11, 13), (17, 19)
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrimeNumber</title>    
+    <script>
+
+        function isPrime(num) {
+            for (let i = 2; i < num; i++) {
+                if (num % i == 0) {
+                    return false;
+                }
+            }
+            return true;
+        }
+
+        function getTwinPrimes(start, end) {
+            let result = "";
+
+            for (let i = start; i <= end; i++) {
+                if (isPrime(i) && isPrime(i + 2) && (i + 2) <= end) {
+                    result += "(" + i + ", " + (i + 2) + "), ";
+                }
+            }
+
+            return result.substring(0, result.length - 2);
+        }
+
+        function myFun() {            
+            let num1 = parseInt(document.getElementById('num1').value);
+            let num2 = parseInt(document.getElementById('num2').value);
+
+            let result = getTwinPrimes(num1, num2);            
+            document.getElementById('result').innerHTML = result;
+        }
+    </script>
+</head>
+<body>
+    Enter a Number1: <input type="text" id="num1" /> <br/>
+    Enter a Number2: <input type="text" id="num2" /> <br/>
+    <button onClick="myFun()">Get Result</button> <br/><br/>    
+    <h1 id="result"></h1>
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+  </head>
+  <body>
+    <h1 id="result"></h1>
+    <script> 
+       
+        let result="";
+        let arr=[10,20,30];
+        let arr2=new Array(10,20,30);
+        arr[0]=10;
+        arr[1]=20;
+        arr[2]=30;
+    result ="arr[0]="+arr[0]+"<br/>"+
+    "arr[1]="+arr[1]+"<br/>"+
+    "arr[2]="+arr[2];
+    result=arr.length;
+    document.getElementById('result').innerHTML=result;
+    
+        </script>
+         
+  
+  </body>
+  </html>
+ 
+    arr.push(40);
+   arr.push(50);
+
+    result+=arr.toString()+"<br/>";
+    delete arr[2];
+    result+=arr.toString()+"<br/>";
+
+
+
+MERN Stack Day-08 (JavaScript Day-03)
+=====================================
+
+https://www.protectedtext.com/bvrith-mernstack
+Password: 123
+
+Date: 18-Sept-2024
+Week: Friday - Afternoon
+
+
+
+Arrays
+======
+
+
+Example-1
+=========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArrayDemo</title> 
+</head>
+<body>    
+    <h3 id="result"></h3>
+
+    <script>
+        let result = "";
+        
+        let arr = [];
+        arr[0] = 10;
+        arr[1] = 20;
+        arr[2] = 30;
+
+        result = 
+        "arr[0] = " + arr[0] + "<br/>" + 
+        "arr[1] = " + arr[1] + "<br/>" + 
+        "arr[2] = " + arr[2];
+
+        document.getElementById('result').innerHTML = result;
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+Example-2
+=========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArrayDemo</title> 
+</head>
+<body>    
+    <h3 id="result"></h3>
+
+    <script>
+        let result = "";
+        
+        let arr = [10, 20, 30];
+
+        result = 
+        "arr[0] = " + arr[0] + "<br/>" + 
+        "arr[1] = " + arr[1] + "<br/>" + 
+        "arr[2] = " + arr[2];
+
+        document.getElementById('result').innerHTML = result;
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+Example-3
+=========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArrayDemo</title> 
+</head>
+<body>    
+    <h3 id="result"></h3>
+
+    <script>
+        let result = "";
+        
+        let arr = new Array(10, 20, 30);
+
+        result = 
+        "arr[0] = " + arr[0] + "<br/>" + 
+        "arr[1] = " + arr[1] + "<br/>" + 
+        "arr[2] = " + arr[2];
+
+        document.getElementById('result').innerHTML = result;
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+Example-4
+=========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArrayDemo</title> 
+</head>
+<body>    
+    <h3 id="result"></h3>
+
+    <script>
+        let result = "";        
+        let arr = new Array(10, 20, 30);
+
+        result = "ArrayLength: " + arr.length + "<br/>";
+        result += arr.toString() + "<br/><br/>";
+
+        arr.push(40);
+        result += "ArrayLength: " + arr.length + "<br/>";
+        result += arr.toString() + "<br/><br/>";
+
+        arr.pop();
+        result += "ArrayLength: " + arr.length + "<br/>";
+        result += arr.toString() + "<br/><br/>";
+
+        document.getElementById('result').innerHTML = result;
+    </script>
+</body>
+</html>
+
+
+
+
+
+Example-5 (Delete array value using delete keyword)
+=========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArrayDemo</title> 
+</head>
+<body>    
+    <h3 id="result"></h3>
+
+    <script>
+        let result = "";        
+        let arr = new Array(10, 20, 30, 40, 50);
+
+        result = "ArrayLength: " + arr.length + "<br/>";
+        result += arr.toString() + "<br/><br/>";
+
+        delete arr[2];
+        
+        result += "ArrayLength: " + arr.length + "<br/>";
+        result += arr.toString() + "<br/><br/>";
+
+        document.getElementById('result').innerHTML = result;
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+Example-6 (Delete Array Values using Splice)
+=========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArrayDemo</title> 
+</head>
+<body>    
+    <h3 id="result"></h3>
+
+    <script>
+        let result = "";        
+        let arr = new Array(10, 20, 30, 40, 50);
+
+        result = "ArrayLength: " + arr.length + "<br/>";
+        result += arr.toString() + "<br/><br/>";
+
+        arr.splice(1, arr.length);        
+        result += "ArrayLength: " + arr.length + "<br/>";
+        result += arr.toString() + "<br/><br/>";
+
+        document.getElementById('result').innerHTML = result;
+    </script>
+</body>
+</html>
+
+
+
+
+
+Example-7 (Concatination)
+=========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArrayDemo</title> 
+</head>
+<body>    
+    <h3 id="result"></h3>
+
+    <script>
+        let result = "";    
+
+        let arr1 = new Array(10, 20, 30, 40, 50);
+        let arr2 = new Array(60, 70, 80, 90);
+        
+        //arr1 = arr1.concat(arr2);
+        //result += arr1.toString();
+
+        result += (arr1.concat(arr2)).toString();
+        document.getElementById('result').innerHTML = result;
+    </script>
+</body>
+</html>
+
+
+
+
+Example-8 (shift - Removes the first element of the array)
+=========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArrayDemo</title> 
+</head>
+<body>    
+    <h3 id="result"></h3>
+
+    <script>
+        let result = "";    
+
+        let arr1 = new Array(10, 20, 30, 40, 50);
+        result += arr1.toString() + "<br/><br/>";
+
+        arr1.shift();
+        result += arr1.toString() + "<br/><br/>";
+
+        arr1.shift();
+        result += arr1.toString() + "<br/><br/>";
+
+        document.getElementById('result').innerHTML = result;
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+Example-9 (unshift - Adds an element to the beginning of the array)
+=========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArrayDemo</title> 
+</head>
+<body>    
+    <h3 id="result"></h3>
+
+    <script>
+        let result = "";    
+
+        let arr1 = new Array(10, 20, 30, 40, 50);
+        result += arr1.toString() + "<br/><br/>";
+
+        arr1.unshift(5);
+        result += arr1.toString() + "<br/><br/>";
+
+        document.getElementById('result').innerHTML = result;
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+Example-10 (flat - makes multi-dimensional array to the single dimensional array)
+=========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArrayDemo</title> 
+</head>
+<body>    
+    <h3 id="result"></h3>
+
+    <script>
+        let result = "";    
+
+        let arr = [[10, 20], [30, 40], [50, 60]];
+        
+        result += "toString(): " + arr.toString() + "<br/><br/>";
+
+        result += "flat(): " + arr.flat() + "<br/><br/>"
+
+        document.getElementById('result').innerHTML = result;
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+Strings
+=======
+
+
+
+
+Example-1
+=========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strings</title> 
+</head>
+<body>    
+    <h3 id="result"></h3>
+
+    <script>
+        let result = "";    
+        
+        let str1 = "Welcome to JavaScript";
+        result += str1 + "<br/>";
+        
+        result += "Length Of String: " + str1.length + "<br/>";
+
+        document.getElementById('result').innerHTML = result;
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+Example-2
+=========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strings</title> 
+</head>
+<body>    
+    <h3 id="result"></h3>
+
+    <script>
+        let result = "";    
+        
+        let str1 = "Welcome to JavaScript";
+        result += str1 + "<br/>";
+        
+        result += "Length Of String: " + str1.length + "<br/>";
+        result += "charAt(0)       : " + str1.charAt(0) + "<br/>";
+        result += "UpperCase       : " + str1.toUpperCase() + "<br/>";
+        result += "LowerCase       : " + str1.toLowerCase() + "<br/>";
+        result += "Substring       : " + str1.substring(11, 15) + "<br/>";
+        result += "Replace         : " + str1.replace("JavaScript", "Java Programming") + "<br/>";
+        
+        document.getElementById('result').innerHTML = result;
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+Example-3
+=========
+
+let firstName = "sree";
+let lastName = "harsha";
+
+Output:
+UserName: Sree Harsha
+CardName: S Harsha
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strings</title> 
+</head>
+<body>    
+    <h3 id="result"></h3>
+
+    <script>
+        let result = "";    
+        let firstName = "sree";
+        let lastName = "harsha";
+        
+        firstName = firstName.replace("s", "S");
+
+        let firstChar = lastName.charAt(0).toUpperCase();
+        let firstChars = lastName.substring(1, lastName.length);
+        lastName = firstChar + firstChars;
+
+        result += "UserName: " + firstName + " " + lastName + "<br/><br/>"
+        result += "CardName: " + firstName.charAt(0) + " " + lastName + "<br/><br/>"
+        document.getElementById('result').innerHTML = result;
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+Example-4
+=========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strings</title> 
+</head>
+<body>    
+    <h3 id="result"></h3>
+
+    <script>
+        let result = "";   
+        let firstName = "   Sree     ";
+        let lastName = "    Harsha   ";    
+        
+        let userName = firstName.trim() + lastName.trim() + " ";
+        result = userName.repeat(2);
+
+        document.getElementById('result').innerHTML = result;
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+Array Example
+=============
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArrayDemo</title> 
+    <script>
+        function findElement() {
+            let result = "Value Not Found!!!";
+            let arr = new Array(10, 20, 30, 40, 50);
+            let num = parseInt(document.getElementById('num').value);
+
+            for (let i = 0; i < arr.length; i++) {
+                if (arr[i] == num) {
+                    result = "Found at " + (i + 1) + " Position";
+                }
+            }
+            document.getElementById('result').innerHTML = result;
+        }
+    </script>
+
+</head>
+<body>   
+    Enter a Number: <input type="text" id="num" /> <br/>
+    <button onClick="findElement()">Find Element</button> <br/><br/>
+    <h3 id="result"></h3>   
+</body>
+</html>
+
+
+
+
+MERN Stack Day-09 (JavaScript Day-04)
+=====================================
+
+https://www.protectedtext.com/bvrith-mernstack
+Password: 123
+
+Date: 25-Sept-2024
+Week: Wednesday - Afternoon
+
+
+
+console.log
+===========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConsoleLog</title>
+
+    <script>
+        console.log("Demo on console.log()");
+    </script>
+
+</head>
+<body>    
+    <h1 align="center">Demonstration on console.log</h1>
+</body>
+</html>
+
+
+
+Function Returning Value
+=========================
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConsoleLog</title>
+
+    <script>
+        function sum(num1 , num2) {
+            return num1 + num2;
+        }
+
+        let result = sum(10, 20);
+        console.log("Sum: " + result);
+
+        console.log("Sum: " + sum(20, 30));
+    </script>
+
+</head>
+<body>    
+    <h1 align="center">Demonstration Function Returnning Values</h1>
+</body>
+</html>
+
+
+
+
+
+
+
+JSON Object (JSON - JavaScript Object Notation)
+===============================================
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Object</title>
+
+    <script>
+        let employee = { empId: 101, empName: "Harsha", salary: 1212.12 };
+
+        console.log("Employee Data: " + employee);
+
+        console.log("Employee Data:");
+        console.log(employee);
+
+        console.log("EmpId  : " + employee.empId);
+        console.log("EmpName: " + employee.empName);
+        console.log("Salary : " + employee.salary);
+    </script>
+
+</head>
+<body>    
+    <h1 align="center">Demonstration JSON Object</h1>
+</body>
+</html>
+
+
+
+
+
+Array of JSON Objects
+=====================
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Of JSON Objects</title>
+
+    <script>
+        let employees = [
+            { empId: 101, empName: "Harsha", salary: 1212.12 },
+            { empId: 102, empName: "Pasha",  salary: 2323.23 },
+            { empId: 103, empName: "Mahesh", salary: 3434.34 },
+            { empId: 104, empName: "Mohan",  salary: 4545.45 },
+            { empId: 105, empName: "Irfan",  salary: 5656.56 }
+        ];
+
+        console.log("Employees Data: " + employees);
+
+        console.log("Employees Data:");
+        console.log(employees);
+
+        console.log("Employees Data:")
+        for (let i = 0; i < employees.length; i++) {
+            console.log(employees[i].empId + ' ' + employees[i].empName);
+        }        
+    </script>
+
+</head>
+<body>    
+    <h1 align="center">Demonstration on Array Of JSON Objects</h1>
+</body>
+</html>
+
+
+
+
+
+
+Higher Order Functions
+======================
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Of JSON Objects</title>
+
+    <script>        
+        function fun1() {
+            console.log("This is Function-1 ");
+        }
+        function fun2() {
+            console.log("This is Function-2");
+        }
+        function fun3(myFun) {
+            console.log("This is Function-3");
+            myFun();
+        }
+        fun3(fun2);  
+        fun3(fun1);      
+    </script>
+
+</head>
+<body>    
+    <h1 align="center">Demonstration on Array Of JSON Objects</h1>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+Area Of the Circle
+==================
+Code-1
+======
+
+    <script>        
+        function circleArea(radius) {
+            return (Math.PI * radius * radius).toFixed(2);
+        } 
+
+        let area = circleArea(5);
+        console.log("Area of Circle: " + area);
+    </script>
+
+
+
+
+
+Code-2
+======
+    <script>        
+        let area = function (radius) {
+            return (Math.PI * radius * radius).toFixed(2);
+        } 
+        console.log("Area of Circle: " +  area(5));        
+    </script>
+
+
+
+
+
+Code-3
+======
+
+    <script>        
+        let area = (radius) => {
+            return (Math.PI * radius * radius).toFixed(2);
+        } 
+        console.log("Area of Circle: " +  area(25));        
+    </script>
+
+
+
+
+Array
+=====
+
+    <script>        
+        let arr = [1, 2, 3, 4, 5];
+
+        console.log("Array Values: " + arr);
+        
+        console.log("Array Values: ");
+        console.log(arr);
+    </script>
+
+
+
+
+
+1. map()
+2. reduce()
+3. filter()
+
+
+
+1. Demonstration on Map()
+=========================
+
+Normal Code
+===========
+
+    <script>        
+        let myArr = [1, 2, 3, 4, 5];
+        
+        function addArray(arr) {
+            let newArr = [];
+            
+            for (let i = 0; i < arr.length; i++) {
+                newArr.push(arr[i] + 10);
+            } 
+
+            return newArr;
+        }
+
+        console.log("New Array Values: ");
+        console.log(addArray(myArr));    //11, 12, 13, 14, 15
+    </script>
+
+
+
+Code-2
+======
+
+    <script>        
+        let myArr = [1, 2, 3, 4, 5];
+        
+        let newArr = function (arr) {
+            let newArr = [];
+            
+            for (let i = 0; i < arr.length; i++) {
+                newArr.push(arr[i] + 10);
+            } 
+            return newArr;
+        }
+
+        console.log("New Array Values: ");
+        console.log(newArr(myArr));    //11, 12, 13, 14, 15
+    </script>
+
+
+
+
+Code-3
+======
+
+    <script>        
+        let myArr = [1, 2, 3, 4, 5];
+        
+        let newArr = (arr) => {
+            let newArr = [];
+            
+            for (let i = 0; i < arr.length; i++) {
+                newArr.push(arr[i] + 10);
+            } 
+            return newArr;
+        }
+
+        console.log("New Array Values: ");
+        console.log(newArr(myArr));    //11, 12, 13, 14, 15
+    </script>
+
+
+
+
+
+Above Program using Map()
+=========================
+
+    <script>        
+        let myArr = [1, 2, 3, 4, 5];
+        
+        let newArr = myArr.map((num) => num += 10);
+
+        console.log(myArr);
+        console.log(newArr);    //11, 12, 13, 14, 15
+    </script>
+
+
+
+
+
+
+2. Reduce() - Array Sum
+=======================
+
+Code-1
+======
+
+    <script>        
+        let myArr = [1, 2, 3, 4, 5];
+        
+        function findSum(arr) {
+            let sum = 0;
+
+            for (let i = 0; i < arr.length; i++) {
+                sum += arr[i];
+            }
+
+            return sum;
+        }
+
+        console.log("Sum = " + findSum(myArr));
+    </script>
+
+
+
+Code-2
+======
+
+    <script>        
+        let myArr = [1, 2, 3, 4, 5];
+        
+        let findSum = function (arr) {
+            let sum = 0;
+
+            for (let i = 0; i < arr.length; i++) {
+                sum += arr[i];
+            }
+
+            return sum;
+        }
+
+        console.log("Sum = " + findSum(myArr));
+    </script>
+
+
+
+Code-3
+======
+
+    <script>        
+        let myArr = [1, 2, 3, 4, 5];
+        
+        let findSum = (arr) => {
+            let sum = 0;
+
+            for (let i = 0; i < arr.length; i++) {
+                sum += arr[i];
+            }
+
+            return sum;
+        }
+
+        console.log("Sum = " + findSum(myArr));
+    </script>
+
+
+
+Above Code using reduce()
+=========================
+
+    <script>        
+        let myArr = [1, 2, 3, 4, 5];
+        
+        let sum = myArr.reduce((total, currValue) => {
+            return total + currValue;
+        }, 0);
+        
+        console.log("Sum = " + sum);
+    </script>
+
+
+
+
+
+
+
+3. Filter()
+===========
+Return only the Odd Numbers from the Array
+
+
+Code-1
+======
+
+    <script>        
+        let myArr = [1, 2, 3, 4, 5];
+        
+        function oddNumber(arr) {
+            let newArr = [];
+
+            for (let i = 0; i < arr.length; i++) {
+                if (arr[i] % 2 != 0) {
+                    newArr.push(arr[i]);
+                }
+            }
+            return newArr;
+        }
+
+        console.log(myArr);
+        console.log(oddNumber(myArr));
+        
+    </script>
+
+
+
+Code-2
+======
+
+    <script>        
+        let myArr = [1, 2, 3, 4, 5];
+        
+        let oddNumber = function (arr) {
+            let newArr = [];
+
+            for (let i = 0; i < arr.length; i++) {
+                if (arr[i] % 2 != 0) {
+                    newArr.push(arr[i]);
+                }
+            }
+            return newArr;
+        }
+
+        console.log(myArr);
+        console.log(oddNumber(myArr));        
+    </script>
+
+
+
+
+Code-3
+======
+
+    <script>        
+        let myArr = [1, 2, 3, 4, 5];
+        
+        let oddNumber = (arr) => {
+            let newArr = [];
+
+            for (let i = 0; i < arr.length; i++) {
+                if (arr[i] % 2 != 0) {
+                    newArr.push(arr[i]);
+                }
+            }
+            return newArr;
+        }
+
+        console.log(myArr);
+        console.log(oddNumber(myArr));        
+    </script>
+
+
+
+
+
+
+
+
+
+
+Above Program Using Filter()
+============================
+
+    <script>        
+        let myArr = [1, 2, 3, 4, 5];
+        
+        let oddNumber = myArr.filter((num) => num % 2);
+
+        console.log(myArr);
+        console.log(oddNumber);        
+    </script>
+
+
+
+
+
+MERN Stack Day-10 (MongoDB Day-01)
+==================================
+
+https://www.protectedtext.com/bvrith-mernstack
+Password: 123
+
+Date: 27-Sept-2024
+Week: Friday - Afternoon
+
+ 
+MongoDB
+=======
+
+
+
+MongoDB Download & Installation
+===============================
+Download and Install MongoDB 5.0 including MongoDB Compass
+
+1. Go to Google Search for MongoDB Community Server
+2. Go to the following Url: https://www.mongodb.com/try/download/community
+3. Change the MongoDB version to 5.0.28 and Click on download.
+4. Install it, No Settings are involved, Just say Next -> Next -> Finish.
+5. Close the installation Window by Clicking on Finish Button.
+6. By Default MongoDB Compass will be Opened, just Close it.
+
+
+
+
+Setting the Path of MongoDB Installation Folder
+===============================================
+1. Go to the MongoDB Installation Path
+(C:\Program Files\MongoDB\Server\5.0\bin)
+
+2. Click on the Address bar, Copy the Installation Path.
+
+3. Open This-PC, Right Click in the Empty Space and select Properties
+
+4. Under System Properties, Click on "Advanced System Settings".
+
+5. Under Advanced Tab, in the bottom, click on "Environment Variables" Button.
+
+6. Under System Variables Category, Scroll Down and Select the "path" variable and click on edit button.
+
+7. Click on "New" button and paste the MongoDB Installation Path.
+
+8. Click on OK, OK, OK.
+
+
+
+
+
+Run the MongoDB
+===============
+1. Create a folder called "data" in c: Drive.
+2. Under "data" folder, create a new folder called "db".
+
+Ex: C:\data\db
+
+
+3. Open the command prompt and provide the command called "mongod", to run the MongoDB Database Server.
+
+
+4. Open one more command prompt and provide the command called "mongo", to run the MongoDB Client application.
+
+
+
+
+
+Operations in MongoDB
+=====================
+
+1. Clears the Screen
+system cls (MySQL)
+cls (mongodb)
+
+
+
+2. Show All Database;
+show databases (MySQL)
+show dbs (mongodb)
+
+
+3. Create a database and use it
+create database test;   use test;  (MySQL)
+use test; (mongodb)
+
+
+
+4. Create a collection/table in the database
+create table student (columns_List); (MySQL)
+
+db.createCollection('student');
+
+
+
+5. After the adding the collection to the test database, now we are able to see the test database under the "show dbs" command list.
+show dbs;
+
+
+6. Insert a record/document into the student collection.
+1. insert
+2. insertOne
+3. insertMany
+
+db.student.insert(
+{sid: 101, sname: 'Harsha', course: 'MongoDb', fees: 12000.00});
+
+
+db.student.insertOne(
+{sid: 102, sname: 'Pasha', course: 'NodeJS', fees: 15000.00});
+
+
+db.student.insertMany([
+{sid: 103, sname: 'Mahesh', course: 'NodeJS',  fees: 13000.00},
+{sid: 104, sname: 'Mohan',  course: 'React',   fees: 14000.00},
+{sid: 105, sname: 'Imran',  course: 'Angular', fees: 15000.00}
+]);
+
+
+
+
+7. Show the Student Collection Records 
+db.student.find();
+db.student.find().pretty();
+
+
+8. Update the Student Collection Record 
+db.student.update({"sid" : 105}, {$set: {"sname" : "Imran"}});
+
+
+9. Delete a Record from the Student Collection
+db.student.deleteOne({"sid" : 101});
+db.student.remove({"sid" : 102});
+
+
+10. Show all collection from the database
+show collections;
+
+
+11. Add a new Collection to the test database and insert a record into it.
+db.employee.insert({empId: 101, empName:'Harsha'});
+
+output:
+First Employee collection will be created, 
+Then the Record/document will be inserted into the employee collection.
+
+12. Show all collection from the database
+show collections;
+
+Output: You can see both student and employee collection.
+
+
+
+12. Delete the Student collection
+db.student.drop();
+
+show collections
+
+
+13. Show employee records
+db.employee.find();
+
+
+14. Add documents to the employee collection
+db.employee.insert({empId: 102});
+db.employee.insert({empName: 'Pasha'});
+db.employee.insert({empId: 102, salary: 1212.12});
+db.employee.insert({empName: 'Mahesh', department:'Trainer'});
+
+
+15. Show all documents from employee collection.
+db.employee.find();
+
+
+16. Delete the test database.
+db.dropDatabase();
+
+
+17. Close MongoDB (Client)
+CTRL + C, then provide exit command to close the command prompt.
+
+
+18. Close MongoDB (Server)
+CTRL + C, then provide exit command to close the command prompt.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
